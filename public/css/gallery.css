@@ -1,0 +1,85 @@
+/* Gallery */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+:root {
+    --primary: #933ded;
+    --dark: #232323;
+    --pure: #fff;
+    --smoke: whitesmoke;
+    --dark-gray: #999;
+}
+
+
+body {
+    font-family: 'Lato', sans-serif;
+    background: var(--dark);
+    color: var(--pure);
+}
+
+.sec-gal{
+    background: #232323;
+      padding: 20px;
+      width: 100%;
+      margin: 40px auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      /* margin-top: 15%; */
+    
+    }
+    section ul{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    
+    }
+    section ul li{
+      list-style: none;
+      background: black;
+      border: 2px solid white;
+      padding: 8px 20px;
+      margin: 5px;
+      letter-spacing: 1px;
+      cursor: pointer;
+    }
+    section ul li.active{
+      background: #933ded;
+      color: #fff;
+    
+    }
+    .products{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      /* -ms-flex-wrap: wrap; */
+    
+    }
+    .products .itembox{
+      position: relative;
+      width: 300px;
+      height:200px;
+      margin: 5px;
+      display: block;
+    }
+    
+    .products .itembox img{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  
+  
+   

@@ -1,0 +1,149 @@
+
+/* body
+{
+    background: #232323;
+    color: #fff;
+} */
+
+.about
+{
+    background-color: #776c6c9d;
+}
+.about h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 200;
+    padding: 20px 0 20px 0;
+}
+.home .form h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home .form p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.l_section {
+    background-color: rgb(244, 241, 250);
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 100%;
+    margin: 5rem auto 0 auto;
+    margin-bottom: 4%;
+}
+
+.l_section  img {
+    height: 250px;
+    /* border:2px solid #524f55; */
+    box-shadow: 10px 10px 5px 5px #524f55;
+
+}
+
+.l_section  h1{
+    margin: 0;
+    color: #933ded;
+}
+
+.l_section p{
+    color: #0b0a0a;
+}
+
+@media(max-width:991px) {
+    .l_section {
+        
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+      
+    }
+    
+    .l_section  img {
+        /* height: 250px; */
+    
+    }
+    
+    .l_section  h1{
+        margin: 2%;
+        /*
+        color: #933ded; */
+    }
+    
+    .l_section p{
+         margin: 2%;
+        /*
+        color: #c0bdbd; */
+    }
+
+}
+/* loading and unloding end */
+.we_believe {
+ 
+ background-color: #776c6c9d;
+}
+.we_believe  h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+}
+.we_believe h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 200;
+
+}
+.a_mission{
+    /* background-color: rgb(244, 241, 250); */
+   
+    padding: 40px;
+    width: 100%;
+    /* margin: 5rem auto 0 auto; */
+    /* margin-bottom: 4%; */
+}
+.a_mission h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #933ded;
+    font-weight: 300;
+    
+/* font-size: sm; */
+}
+
+.a_mission p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* color: #933ded; */
+    font-weight: 300;
+    
+}
+.vision{
+    padding: 40px;
+    width: 100%;
+
+}
+.vision h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #933ded;
+    font-weight: 300;
+    
+
+}
+.vision p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* color: #933ded; */
+    font-weight: 300;
+
+}

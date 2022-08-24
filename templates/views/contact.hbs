@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/contact.css">
+</head>
+
+<body>
+    {{>navbar}}
+    {{!-- <form action="/contact" method="POST">
+        <div>
+            <div>
+                <input type="text" id="username" placeholder="Name" value="" name="username">
+            </div>
+            <div>
+                <input type="email" id="email" placeholder="Email" value="" name="email">
+            </div>
+            <div>
+                <input type="text" id="contact" placeholder="Phone" minlength="10" maxlength="10" value="" name="phone" >
+            </div>
+            <div>
+                <input type="text" id="message" placeholder="Message" value="" name="message">
+            </div>
+            <input type="submit" class="submitbtn" value="submit">
+        </div>
+    </form> --}}
+
+
+        <div class="con_heading">
+        <h2> <span>Contact us</span> </h1>
+    </div>
+    <div class="m_cont">
+        <div class="c_container">
+            <div class="content">
+                <div class="left-side">
+                    <div class="address details">
+                        <i class="fa-solid fa-location-dot " style="color: #933ded;"></i>
+                        <div class="topic">Address</div>
+                        <div class="text-one">ISI-6, RIICO Institutional Area, Sitapura,</div>
+                        <div class="text-two">Jaipur ,Pincode 302022, <br>India</div>
+
+                    </div>
+                    <div class="phone details">
+                        <i class="fa-solid fa-phone" style="color: #933ded;"></i>
+                        <div class="topic">Phone</div>
+                        <div class="text-one">+91 6258397415</div>
+                        <div class="text-two">+91 625831476</div>
+
+                    </div>
+                    <div class="email details">
+                        <i class="fa-solid fa-envelope" style="color: #933ded;"></i>
+                        <div class="topic">Email</div>
+                        <div class="text-one">pcekerandmover@gmail.com</div>
+                        <div class="text-two">pandm@gmail.com</div>
+
+                    </div>
+                </div>
+                <div class="right-side">
+                    <div class="topic-text">Please fill the form </div>
+                    <p>we will get back to you shortly</p>
+
+               
+                <form action="/mess" method="post">
+                    <div class="input-box">
+                        <input type="text" placeholder="Enter your name" id="username" value="" name="username">
+                    </div>
+                    <div class="input-box">
+                        <input type="email" placeholder="Enter your email" id="email" value="" name="email">
+                    </div>
+                    <div class="input-box">
+                        <input type="text" placeholder="Enter your Contact" id="contact" value="" name="phone">
+                    </div>
+                    <div class="input-box">
+
+                        <input type="text" id="movefrom" placeholder="Move From" value="" name="movefrom">
+                    </div>
+                    <div class="input-box">
+                        <input type="text" placeholder="Move To" id="moveto" value="" name="moveto">
+                    </div>
+                    <div class="input-box message-box" >
+                        <textarea placeholder="Enter your message here" id="message" name="message"></textarea>
+                    </div>
+
+                    <div class="button">
+                        <input type="submit" value="submit" class="submitbtn" >
+
+                    </div>
+                </form>
+            </div>
+        </div>
+        </div>
+
+    </div>
+
+    {{>footer}}
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <form action="/mess" method="POST">
+        <div>
+            <div>
+                <input types="text" id="username" placeholder="Name" value="" name="username">
+            </div>
+            <div>
+                <input type="email" id="email" placeholder="Email" value="" name="email">
+            </div>
+            <div>
+                <input type="text" id="contact" placeholder="Phone" minlength="10" maxlength="10" value="" name="phone" >
+            </div>
+            <div>
+                <input type="text" id="movefrom" placeholder="Move From" value="" name="movefrom">
+            </div>
+            <div>
+                <input type="text" id="moveto" placeholder="Move to" value="" name="moveto">
+            </div>
+            <div>
+                <input type="text" id="message" placeholder="Message" value="" name="message">
+            </div>
+            <input type="submit" class="submitbtn" value="submit">
+        </div>
+    </form>
+</body>
+
+</html>
